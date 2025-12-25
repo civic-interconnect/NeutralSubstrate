@@ -1,0 +1,10 @@
+name = "NeutralSubstrate"
+version = "0.1.0"
+defaultTargets = ["neutralsubstrate"]
+
+[[lean_lib]]
+name = "NeutralSubstrate"
+
+[[lean_exe]]
+name = "neutralsubstrate"
+root = "Main"
