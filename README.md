@@ -4,34 +4,26 @@
 ![Build Status](https://github.com/civic-interconnect/NeutralSubstrate/actions/workflows/ci.yml/badge.svg)
 [![Check Links](https://github.com/civic-interconnect/NeutralSubstrate/actions/workflows/links.yml/badge.svg)](https://github.com/civic-interconnect/NeutralSubstrate/actions/workflows/links.yml)
 
-> Lean 4 formalization of the Ontological Neutrality Theorem.
+> Lean 4 formalization of foundational constraints required for ontological substrates
+> intended to support accountability under persistent interpretive disagreement.
 
-## Theorem
+## Context
 
-An ontology is neutral if and only if it contains no causal or normative primitives.
+Part of the Structural Explainability framework.
 
-```lean
-∀ S : Ontology, Neutral S ↔ containsCausalOrNormative S = false
-```
+## Scope
 
-## Domain Scope
+This repository formalizes structural constraints on ontological substrates that are intended to remain stable across incompatible interpretations, legal regimes, and analytic frameworks.
 
-This formalization applies to substrates optimized for:
+It does not define a concrete ontology or protocol.
+It establishes conditions that any such system must satisfy at the substrate level.
 
-- Stability under durable interpretive disagreement
-- Accountability across jurisdictions
-- Interoperability without semantic consensus
-
-## Paper (Submitted)
-
-Case, D. M. (2025). "The Ontological Neutrality Theorem: Why Neutral Ontological Substrates Must Be Pre-Causal and Pre-Normative."
-
-## Verify
+## Build and Run
 
 ```bash
 lake update
 lake build
-lake exe neutralsubstrate
+lake exe verify
 ```
 
 ## Documentation
@@ -39,15 +31,9 @@ lake exe neutralsubstrate
 - [Paper to Lean Mapping](./docs/MAPPING.md)
 - [Lean 4 Quick Reference](./docs/LEAN.md)
 
-## Project Structure
+## Citation
 
-| Item         | Value                                            |
-| ------------ | ------------------------------------------------ |
-| Project name | `NeutralSubstrate`                               |
-| Namespace    | `StructuralExplainability`                       |
-| Library      | `StructuralExplainability`                       |
-| Executable   | `neutralsubstrate`                               |
-| Main proof   | `StructuralExplainability/NeutralSubstrate.lean` |
+See [CITATION.cff](./CITATION.cff)
 
 ## License
 
