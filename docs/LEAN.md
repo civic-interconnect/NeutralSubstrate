@@ -137,4 +137,3 @@ Type backslash + shortcut, then space:
 - [Theorem Proving in Lean 4](https://leanprover.github.io/theorem_proving_in_lean4/)
 - [Functional Programming in Lean](https://leanprover.github.io/functional_programming_in_lean/)
 - [Mathlib Documentation](https://leanprover-community.github.io/mathlib4_docs/)
-  

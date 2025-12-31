@@ -11,4 +11,3 @@
 --   No definitions or theorems belong here.
 
 import StructuralExplainability.NeutralSubstrate
-
